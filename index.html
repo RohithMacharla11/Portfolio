@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI/ML Engineer Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/timeline.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="nav-content">
+            <a href="https://your-portfolio-link.com" class="logo">Rohith's Portfolio</a>
+            <div class="hamburger" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+
+    <header id="hero">
+        <div class="container">
+            <img src="MyPic.png" alt="Rohith Macharla" class="profile-photo">
+            <div class="portfolio-header">
+                <h1>Rohith Macharla</h1>
+                <h2 id="designation"></h2>
+            </div>
+
+            <div class="social-links">
+                <a href="https://github.com/RohithMacharla11/RohithMacharla11" target="_blank">
+                    <i class="fab fa-github"></i>
+                    <span class="tooltip">GitHub</span>
+                </a>
+                <a href="https://www.linkedin.com/in/macharla-rohith-rm2005" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                    <span class="tooltip">LinkedIn</span>
+                </a>
+                <a href="https://leetcode.com/u/RohithMac25/" target="_blank">
+                    <i class="fas fa-code"></i>
+                    <span class="tooltip">LeetCode</span>
+                </a>
+                <a href="https://www.hackerrank.com/profile/RohithMac" target="_blank">
+                    <i class="fas fa-laptop-code"></i>
+                    <span class="tooltip">HackerRank</span>
+                </a>
+                <a href="https://drive.google.com/file/d/1T1wTInCgvj4O71D7DsGKzhWKe3FJIQ5S/view?usp=sharing"
+                    target="_blank">
+                    <i class="fas fa-file-alt"></i>
+                    <span class="tooltip">Resume</span>
+                </a>
+            </div>
+
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2 class = section-title>About Me</h2>
+            <p>Hello! I'm <strong>Rohith Macharla</strong>, a passionate and enthusiastic software developer with a
+                strong focus on AI/ML, full-stack development, and solving real-world problems through code. With a
+                background in computer science and hands-on experience in building dynamic applications, I thrive on
+                challenges and continuously seek to enhance my skills and knowledge.</p>
+            <p>I specialize in <strong>AI Engineering, Full-Stack Development, and Basic of Android
+                    Development</strong>. Over the years, I've worked on various projects that have sharpened my
+                technical and problem-solving abilities. Whether it's designing intuitive user interfaces, creating
+                scalable back-end systems, or developing machine learning models, I am constantly striving to improve
+                and deliver solutions that make a difference.</p>
+            <p>In my free time, I enjoy exploring new technologies, contributing to open-source projects, and solving
+                problems on platforms like LeetCode and HackerRank. I believe in continuous learning and have a keen
+                interest in staying up-to-date with the latest industry trends, tools, and frameworks.</p>
+            <p>Through my professional experiences, including internships and personal projects, I’ve developed a deep
+                understanding of <strong>AI algorithms, web development, database management, and software engineering
+                    best practices</strong>. My goal is to contribute to impactful projects that leverage technology to
+                create a positive influence on businesses and society.</p>
+            <p>If you're interested in collaborating, discussing ideas, or just having a tech conversation, feel free to
+                reach out. Let's build something amazing together!</p>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2 class="section-title">Education Journey</h2>
+        <div class="education-container">
+            <div class="education-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>Bachelor's Degree</h3>
+                        <p style="text-align: center;">Computer Science and Engineering</p>
+                    </div>
+
+                    <div class="card-back">
+                        <h3>SR University</h3>
+                        <p>2022-2026</p>
+                        <p>GPA: 9.40</p>
+                        <p>specialization in AIML</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="education-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <i class="fas fa-university"></i>
+                        <h3>Intermediate</h3>
+                        <p>MPC</p>
+                    </div>
+                    <div class="card-back">
+                        <h3>Sr Prime Collage</h3>
+                        <p>2020-2022</p>
+                        <p>Marks: 963 / 1000</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="education-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <i class="fas fa-university"></i>
+                        <h3>Schooling</h3>
+                        <p>SSC</p>
+                    </div>
+                    <div class="card-back">
+                        <h3>Ekashila Techno Schools </h3>
+                        <p>2020</p>
+                        <p>CGPA: 10.0</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2 class = section-title>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Facial Expression Recognition</h3>
+                    <p class="project-tech">Python, TensorFlow, Keras, OpenCv, Pickle, Haarcascade FrontalFace
+                        Algorithm, Numpy, Scikit learn, MatplotLib</p>
+                    <p>A deep learning project focused on detecting facial expressions and recognizing emotions using a
+                        Convolutional Neural Network (CNN). This project leverages a labeled dataset of facial
+                        expressions and aims to achieve high accuracy in emotion detection by employing advanced deep
+                        learning techniques.</p>
+                    <div class="project-links">
+                        <!-- <a href="#" class="btn">View Project</a> -->
+                        <a href="https://github.com/RohithMacharla11/Facial-Expressions-Recognition/"
+                            class="btn">GitHub</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3> Interactive College Information Chatbot</h3>
+                    <p class="project-tech">Python, NLTK, Transformers, Tf-Idf Vectotizer, Json</p>
+                    <p>Developed an AI-driven chatbot capable of interacting with users and providing detailed,
+                        context-aware responses about SR University. The chatbot leverages Natural Language Processing
+                        (NLP) techniques to understand user queries and respond with accurate information about the
+                        university's offerings, infrastructure, and other details.</p>
+                    <div class="project-links">
+                        <!-- <a href="#" class="btn">View Project</a> -->
+                        <a href="https://github.com/RohithMacharla11/University-Chatbot" class="btn">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>PantryPulse - Grocery Store Management Website</h3>
+                    <p class="project-tech">WordPress, Infinity Free, Advanced Custom Fields, WooCommerce, WPForms</p>
+                    <p>PantryPulse is a WordPress-based platform for efficient pantry inventory management. It helps
+                        households and small businesses track items and manage stock levels. The website offers an
+                        intuitive, user-friendly interface. It aims to reduce waste and simplifies pantry management by
+                        keeping an accurate inventory.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://pantrypulse.great-site.net/?i=1" class="btn">Visit Website</a>
+                        <a href="https://github.com/RohithMacharla11/grocery-store-website" class="btn">GitHub</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3> Car Rental Website - Streamlining Vehicle Rentals</h3>
+                    <p class="project-tech">HTML, CSS, Bootstrap, JavaScript, PHP, MySQL, Apache Server, Visual Studio
+                        Code, XAMPP, Live Server</p>
+                    <p>This dynamic Car Rental Website is a comprehensive platform designed to simplify the car rental
+                        process. Built using PHP and other web technologies, it provides users with a seamless and
+                        intuitive experience for browsing, booking, and managing vehicle rentals.</p>
+                    <div class="project-links">
+                        <a href="https://carrental.great-site.net/" class="btn">Visit Website</a>
+                        <a href="https://github.com/RohithMacharla11/car-rental-website" class="btn">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Hotel Management System</h3>
+                    <p class="project-tech">C, Data Structures, File Handling, and Algorithms</p>
+                    <p>The Hotel Management System is a user-centric application developed using C programming and data
+                        structures. This project is designed to streamline and enhance hotel operations, including guest
+                        check-in/check-out, room management, and billing. With its intuitive interface and efficient
+                        data handling, the system ensures seamless hotel administration, optimizing operational
+                        efficiency and improving the overall guest experience.</p>
+                    <div class="project-links">
+                        <!--<a href="https://pantrypulse.great-site.net/?i=1" class="btn">Visit Website</a>-->
+                        <a href="https://github.com/RohithMacharla11/Hotel-Management_C_Application"
+                            class="btn">GitHub</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3> Customer Churn Prediction</h3>
+                    <p class="project-tech">Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Jupyter Notebook
+                    </p>
+                    <p>The Customer Churn Prediction project aims to tackle one of the most pressing challenges for
+                        businesses: customer retention. By leveraging historical customer data and applying machine
+                        learning techniques, the project identifies customers at risk of churning, enabling businesses
+                        to implement proactive strategies to improve retention rates.</p>
+                    <div class="project-links">
+                        <!-- <a href="https://carrental.great-site.net/" class="btn">View Project</a> -->
+                        <a href="https://github.com/RohithMacharla11/Costumer-Churn-Predction/" class="btn">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section id="experience">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>PHP Full Stack Developer</h3>
+                        <p class="company">Monosage</p>
+                        <p class="date">May 2024 - July 2024</p>
+                        <ul>
+                            <li>Delivered a fully functional car rental website within three weeks.</li>
+                            <li>Gained hands-on experience in PHP, JavaScript, and backend development.</li>
+                            <li>Collaborated effectively with a teammate to meet client requirements.</li>
+                            <li>Learned to work under tight deadlines while ensuring quality delivery.</li>
+                            <li>Improved website traffic by optimizing SEO strategies.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>AIML Intern</h3>
+                        <p class="company">Google Developer Experts</p>
+                        <p class="date">July 2024 - Sept 2024</p>
+                        <ul>
+                            <li>Gained proficiency in TensorFlow, Keras, and other machine learning libraries.</li>
+                            <li>Applied deep learning algorithms to solve real-world AI problems.</li>
+                            <li>Developed and implemented machine learning models using Google Cloud AI tools.</li>
+                            <li>Contributed to 4 knowledge-sharing sessions with peers.</li>
+                            <li>Explored NLP and image recognition projects.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>AI Development Intern</h3>
+                        <p class="company">Infosys Springboard</p>
+                        <p class="date">Dec 2024 - Present</p>
+                        <ul>
+                            <li>Engaged in hands-on exercises to solidify theoretical knowledge.</li>
+                            <li>Strengthened expertise in AI concepts and their applications in real-world scenarios.<li>
+                            <li>Explored various model selection techniques to identify optimal algorithms.</li>
+                            <li>Worked alongside 15-20 peers under the mentorship of an AI expert.</li>
+                            <li>Gained insights into effective feature engineering techniques</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <section class="timeline-section" id="experience">
+        <h2 class = section-title>Experience</h2>
+        <div class="timeline-container">
+            <div class="timeline">
+                <div class="timeline-item" data-id="1">
+                    <div class="timeline-logo">
+                        <img src="MonosageLogo.png" alt="Company 1">
+                    </div>
+                    <div class="timeline-content">
+                        <h3>PHP Full Stack Developer</h3>
+                        <h4>Monosage</h4>
+                        <p>May 2024 - July 2024</p>
+                        <button class="read-more">Detailed View</button>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-id="2">
+                    <div class="timeline-logo">
+                        <img src="GoogleDevelopers.png" alt="Company 2">
+                    </div>
+                    <div class="timeline-content">
+                        <h3>AIML Intern</h3>
+                        <h4>Google Developer Experts</h4>
+                        <p>July 2024 - Sept 2024</p>
+                        <button class="read-more">Detailed View</button>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-id="3">
+                    <div class="timeline-logo">
+                        <img src="infosys.png" alt="Company 3">
+                    </div>
+                    <div class="timeline-content">
+                        <h3>AI Development Intern</h3>
+                        <h4>Infosys Springboard</h4>
+                        <p>Dec 2024 - Present</p>
+                        <button class="read-more">Detailed View</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-body"></div>
+        </div>
+    </div>
+
+    <section id="skills">
+        <div class="skills-container">
+            <h2 class = section-title>My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming</h3>
+                    <ul>
+                        <li><i class="fab fa-python"></i> Python</li>
+                        <li><i class="fab fa-html5"></i> HTML</li>
+                        <li><i class="fab fa-css3-alt"></i> CSS</li>
+                        <li><i class="fab fa-php"></i> PHP</li>
+                        <li><i class="fab fa-bootstrap"></i> Bootstrap</li>
+                        <li><i class="fab fa-java"></i> Java</li>
+                        <li><i class="fas fa-code"></i> C</li>
+                        <li><i class="fas fa-database"></i> SQL</li>
+                        <li><i class="fas fa-dice-d6"></i> Django</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>AI & ML</h3>
+                    <ul>
+                        <li><i class="fas fa-brain"></i> TensorFlow</li>
+                        <li><i class="fas fa-layer-group"></i> NLTK</li>
+                        <li><i class="fas fa-chart-line"></i> Scikit-learn</li>
+                        <li><i class="fas fa-network-wired"></i> NumPy</li>
+                        <li><i class="fas fa-table"></i> Pandas</li>
+                        <li><i class="fas fa-chart-bar"></i> Matplotlib</li>
+                        <li><i class="fas fa-brain"></i> Deep Learning</li>
+                        <li><i class="fas fa-eye"></i> OpenCV</li>
+                        <li><i class="fas fa-cubes"></i> Keras</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li><i class="fab fa-git-alt"></i> Git</li>
+                        <li><i class="fas fa-server"></i> Apache</li>
+                        <li><i class="fab fa-aws"></i> AWS</li>
+                        <li><i class="fas fa-database"></i> MySql</li>
+                        <li><i class="fab fa-linux"></i> Linux</li>
+                        <li><i class="fas fa-book"></i> Jupyter notebook</li>
+                        <li><i class="fas fa-chart-bar"></i> Kaggle</li>
+                        <li><i class="fas fa-code-branch"></i> Jetbrains</li>
+                        <li><i class="fas fa-code"></i> Visual Stuidio</li>
+
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Soft Skills</h3>
+                    <ul>
+                        <li><i class="fas fa-brain"></i> Strategic Thinking</li>
+                        <li><i class="fas fa-clock"></i> Time Management</li>
+                        <li><i class="fas fa-user-tie"></i> Leadership</li>
+                        <li><i class="fas fa-sync-alt"></i> Adaptability</li>
+                        <li><i class="fas fa-tasks"></i> Project Management</li>
+                        <li><i class="fas fa-lightbulb"></i> Willingness to Learn</li>
+                        <li><i class="fas fa-paint-brush"></i> Creativity</li>
+                        <li><i class="fas fa-puzzle-piece"></i> Problem-Solving</li>
+                        <li><i class="fas fa-users"></i> Teamwork</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="stats">
+        <div class="container">
+            <h2 class = section-title>Impact & Achievements</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">8+</div>
+                    <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">3</div>
+                    <div class="stat-label">Research Papers</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">85%</div>
+                    <div class="stat-label"> Growth in Technical Knowledge</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">100+</div>
+                    <div class="stat-label">Hours of Learning and Development</div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- <section id="research">
+        <h2 class="section-title">Research Papers</h2>
+        <div class="research-container">
+            <div class="research-paper">
+                <div class="paper-content">
+                    <h3>Machine Learning in Healthcare</h3>
+                    <p>Published in IEEE 2022</p>
+                    <div class="paper-details">
+                        <p>A comprehensive study on implementing ML algorithms in diagnostic procedures.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="research-paper">
+                <div class="paper-content">
+                    <h3>Neural Networks Architecture</h3>
+                    <p>Published in Nature 2021</p>
+                    <div class="paper-details">
+                        <p>Novel approaches to neural network design for improved efficiency.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section id="contact">
+        <h2 class="section-title">Get in Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>macharlarohith111@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+91 7780598470</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-location-dot"></i>
+                    <p>Warangal, Telangana, India</p>
+                </div>
+            </div>
+            <form id="contact-form" class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <button id="upButton" onclick="scrollToTop()">↑</button>
+
+
+    <!-- <section id="testimonials">
+        <div class="container">
+            <h2>What People Say</h2>
+            <div class="testimonials">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"John's expertise in AI and machine learning helped us achieve breakthrough results in our project. His technical skills and problem-solving abilities are exceptional."</p>
+                    <p class="testimonial-author">- Dr. Sarah Johnson, Research Director</p>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Working with John was a game-changer for our startup. His innovative solutions and dedication to quality delivered outstanding results."</p>
+                    <p class="testimonial-author">- Michael Chen, CEO TechStart</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> email@example.com</p>
+                    <p><i class="fas fa-location-dot"></i> City, Country</p>
+                </div>
+                <form id="contact-form">
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea placeholder="Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section> -->
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Rohith Macharla. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/animations.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/form.js"></script>
+</body>
+
+</html>

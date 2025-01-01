@@ -1,0 +1,223 @@
+/* Profile Photo */
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid var(--primary-color);
+    margin-bottom: 2rem;
+    object-fit: cover;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+
+.portfolio-header {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+ 
+/* Social Links */
+.social-links {
+    display: flex;
+    gap: 2rem;
+    justify-content: center; /* Center the icons if needed */
+  }
+  
+  .social-links a {
+    position: relative;
+    text-decoration: none;
+    color: #333;
+    font-size: 30px; /* Increased icon size */
+  }
+  
+  .social-links a .tooltip {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    bottom: -40px; /* Adjusted tooltip position for larger icons */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #525050;
+    color: #fff;
+    padding: 8px 12px; /* Increased padding for tooltip */
+    border-radius: 2px;
+    font-size: 16px; /* Increased tooltip font size */
+    white-space: nowrap;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    pointer-events: none;
+  }
+  
+  .social-links a:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  
+
+/* Project Cards */
+#projects{
+    background-color: rgb(255, 252, 252);
+}
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.project-card {
+    background: var(--bg-color);
+    padding: 2rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.project-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+    transition: color 0.3s ease;
+}
+.project-links{
+    display: flex;
+    padding-top: 15px;
+    gap: 20px;
+}
+.project-title:hover {
+    color: var(--primary-color);
+}
+
+.project-tech {
+    color: var(--primary-color);
+    margin-bottom: 1.2rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.project-description {
+    font-size: 1rem;
+    color: var(--secondary-color);
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.project-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .projects-grid {
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    }
+
+    .project-card {
+        padding: 1.5rem;
+    }
+}
+
+/* Stats Cards */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin: 3rem 0;
+}
+
+.stat-card {
+    background: var(--bg-color);
+    padding: 2rem;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.stat-number {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.stat-label {
+    font-size: 1rem;
+    color: var(--text-color);
+}
+
+#about{
+    background-color: rgb(244, 251, 255);
+}
+#stats{
+    background-color: aliceblue;
+}
+/* Testimonials */
+.testimonial-card {
+    background: var(--bg-color);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+
+.testimonial-text {
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.testimonial-author {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: var(--secondary-color);
+}
+
+#upButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: none; /* Initially hidden */
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1000;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+#upButton:hover {
+    background-color: var(--text-color);
+    transform: scale(1.1);
+}
