@@ -5,7 +5,7 @@ document.addEventListener('sectionsLoaded', () => {
     const projects = [
         {
             id: '1',
-            Img: './assets/mypic123.png',
+            Img: './assets/hercycleplus2.png',
             Title: 'HerCyclePlus',
             Description: 'HerCycle+ is a revolutionary women’s health companion app designed for women aged 15–45.  It seamlessly integrates cycle tracking, fertility insights, mental wellness, sexual health support, and expert teleconsultations into a single, AI-powered platform. The app includes a responsive design with a 3-minute wellness timer and sections for sharing health concerns, ensuring an engaging user experience.',
             LiveLink: 'https://github.com/RohithMacharla11/hercycleplus/blob/main/release/hercycleplus.apk',
