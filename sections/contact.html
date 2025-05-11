@@ -1,0 +1,182 @@
+<section id="contact" class="relative">
+    <div class="contact-particles">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+    <div class="container max-width">
+        <h2 class="text-center text-3xl md:text-4xl font-bold mb-10 bg-gradient-to-r from-purple-400 to-indigo-500 bg-clip-text text-transparent">
+            Get in Touch
+        </h2>
+        <div class="contact-content grid gap-8 md:grid-cols-2">
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <!-- Pop-up Notification -->
+                <div id="form-notification" class="form-notification hidden">
+                    <span id="notification-message"></span>
+                    <button id="close-notification" class="ml-auto">
+                        <i data-lucide="x"></i>
+                    </button>
+                </div>
+                <h2 class="text-2xl font-bold mb-6">Send a Message</h2>
+                <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                    <!-- Replace with your Web3Forms Access Key -->
+                    <input type="hidden" name="access_key" value="e5a5e422-44ab-4d81-9b94-57e322a76fcd">
+                    <div class="input-field">
+                        <i data-lucide="user"></i>
+                        <input type="text" id="name" name="name" placeholder=" " required />
+                        <label for="name">Your Name</label>
+                        <i class="input-check" data-lucide="check-circle"></i>
+                    </div>
+                    <div class="input-field">
+                        <i data-lucide="mail"></i>
+                        <input type="email" id="email" name="email" placeholder=" " required />
+                        <label for="email">Your Email</label>
+                        <i class="input-check" data-lucide="check-circle"></i>
+                    </div>
+                    <div class="input-field">
+                        <i data-lucide="tag"></i>
+                        <select id="purpose" name="purpose" required>
+                            <option value="" disabled selected></option>
+                            <option value="collaboration">Collaboration</option>
+                            <option value="hiring">Hiring</option>
+                            <option value="feedback">Feedback</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <label for="purpose">Purpose of Message</label>
+                    </div>
+                    <div class="input-field">
+                        <i data-lucide="message-square"></i>
+                        <textarea id="message" name="message" placeholder=" " required></textarea>
+                        <label for="message">Your Message</label>
+                        <i class="input-check" data-lucide="check-circle"></i>
+                    </div>
+                    <button type="submit" class="relative">
+                        <span>Send Message</span>
+                        <div class="loading-spinner hidden"></div>
+                    </button>
+                </form>
+            </div>
+            <!-- Contact Info and Social Links -->
+            <div class="contact-info-social">
+                <!-- Contact Info -->
+                <div class="contact-info mb-6">
+                    <h2 class="text-2xl font-bold mb-4">Contact Info</h2>
+                    <div class="info-item flex items-center gap-3 p-4 bg-gray-800 rounded-lg mb-3 hover:bg-gray-700 transition-all">
+                        <i data-lucide="phone" class="text-purple-400"></i>
+                        <div>
+                            <span class="block text-sm text-gray-400">Phone</span>
+                            <a href="tel:+91 7780598470" class="text-white hover:underline">+91 7780598470</a>
+                        </div>
+                        <!-- <button class="copy-btn ml-auto text-gray-400 hover:text-white" data-tooltip="Copy">
+                            <i data-lucide="copy"></i>
+                        </button> -->
+                    </div>
+                    <div class="info-item flex items-center gap-3 p-4 bg-gray-800 rounded-lg hover:bg-gray-700 transition-all">
+                        <i data-lucide="mail" class="text-purple-400"></i>
+                        <div>
+                            <span class="block text-sm text-gray-400">Email</span>
+                            <a href="mailto:macharlarohith111@gmail.com" class="text-white hover:underline">macharlarohith111@gmail.com</a>
+                        </div>
+                        <!-- <button class="copy-btn ml-auto text-gray-400 hover:text-white" data-tooltip="Copy">
+                            <i data-lucide="copy"></i>
+                        </button> -->
+                    </div>
+                </div>
+                <!-- Social Links -->
+                <div class="social-links-section">
+                    <h2 class="text-2xl font-bold mb-4">Connect with Me</h2>
+                    <div class="social-links-grid grid grid-cols-1 sm:grid-cols-2 gap-3">
+                        <a href="https://www.linkedin.com/in/macharla-rohith-rm2005" class="social-link linkedin" target="_blank" rel="noopener noreferrer">
+                            <span class="social-link-icon bg-blue-900">
+                                <i data-lucide="linkedin"></i>
+                            </span>
+                            <span class="social-link-text">
+                                <span>LinkedIn</span>
+                                <span>@macharla-rohith</span>
+                            </span>
+                            <i data-lucide="external-link"></i>
+                        </a>
+                        <a href="https://github.com/RohithMacharla11/RohithMacharla11" class="social-link github" target="_blank" rel="noopener noreferrer">
+                            <span class="social-link-icon bg-gray-900">
+                                <i data-lucide="github"></i>
+                            </span>
+                            <span class="social-link-text">
+                                <span>GitHub</span>
+                                <span>@RohithMacharla11</span>
+                            </span>
+                            <i data-lucide="external-link"></i>
+                        </a>
+                        <a href="https://leetcode.com/u/RohithMac25/" class="social-link leetcode" target="_blank" rel="noopener noreferrer">
+                            <span class="social-link-icon bg-yellow-900">
+                                <i data-lucide="code"></i>
+                            </span>
+                            <span class="social-link-text">
+                                <span>LeetCode</span>
+                                <span>@RohithMac25</span>
+                            </span>
+                            <i data-lucide="external-link"></i>
+                        </a>
+                        <a href="https://www.credly.com/users/rohith-macharla" class="social-link credly" target="_blank" rel="noopener noreferrer">
+                            <span class="social-link-icon bg-blue-800">
+                                <i data-lucide="award"></i>
+                            </span>
+                            <span class="social-link-text">
+                                <span>Credly</span>
+                                <span>@rohith-macharla</span>
+                            </span>
+                            <i data-lucide="external-link"></i>
+                        </a>
+                        <a href="https://www.instagram.com/rohith_macharla_/" class="social-link instagram" target="_blank" rel="noopener noreferrer">
+                            <span class="social-link-icon bg-pink-900">
+                                <i data-lucide="instagram"></i>
+                            </span>
+                            <span class="social-link-text">
+                                <span>Instagram</span>
+                                <span>@rohith_macharla_</span>
+                            </span>
+                            <i data-lucide="external-link"></i>
+                        </a>
+                        <a href="https://www.kaggle.com/macharlarohith1213" class="social-link kaggle" target="_blank" rel="noopener noreferrer">
+                            <span class="social-link-icon bg-blue-700">
+                                <i data-lucide="bar-chart-2"></i>
+                            </span>
+                            <span class="social-link-text">
+                                <span>Kaggle</span>
+                                <span>@macharlarohith1213</span>
+                            </span>
+                            <i data-lucide="external-link"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Location & Availability Section -->
+                <div class="location-availability mt-6">
+                    <h2 class="text-2xl font-bold mb-4">Location & Availability</h2>
+                    <div class="location-info bg-gray-800 rounded-lg p-4 mb-3">
+                        <div class="flex items-center gap-3">
+                            <i data-lucide="map-pin" class="text-purple-400"></i>
+                            <div>
+                                <span class="block text-sm text-gray-400">Location</span>
+                                <span class="text-white">Warangal, Telangana, India,</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="status-info bg-gray-800 rounded-lg p-4 mb-3">
+                        <div class="flex items-center gap-3">
+                            <i data-lucide="calendar-check" class="text-purple-400"></i>
+                            <div>
+                                <span class="block text-sm text-gray-400">Availability</span>
+                                <span class="text-white">Open to freelance projects & collaborations</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</section>
