@@ -4,59 +4,59 @@ document.addEventListener('sectionsLoaded', () => {
     // Manually defined static certificate data
     const certificates = [
         {
-            Img: '../assets/certificates/InfosySpringBoard.png',
+            Img: './assets/certificates/InfosySpringBoard.png',
             Title: 'Infosys SpringBoard Internship Certificate'
         },
         {
-            Img: '../assets/certificates/GooleDeveloperCertificate.png',
+            Img: './assets/certificates/GooleDeveloperCertificate.png',
             Title: 'Google Developers Internship Certificate'
         },
         {
-            Img: '../assets/certificates/Mictosoft Azure Fundamental.png',
+            Img: './assets/certificates/Mictosoft Azure Fundamental.png',
             Title: 'Microsoft Azure Fundamental'
         },
         {
-            Img: '../assets/certificates/monosage Internship.png',
+            Img: './assets/certificates/monosage Internship.png',
             Title: 'Monosage Internship Certificate'
         },
         {
-            Img: '../assets/certificates/psycology.png',
+            Img: './assets/certificates/psycology.png',
             Title: 'Introduction to Psycology'
         },
         {
-            Img: '../assets/certificates/12hourshackethon.png',
+            Img: './assets/certificates/12hourshackethon.png',
             Title: '12 Hours Programming Hackathon'
         },
         {
-            Img: '../assets/certificates/introductiontoNetworks.png',
+            Img: './assets/certificates/introductiontoNetworks.png',
             Title: 'Introduction to Networks'
         },
         {
-            Img: '../assets/certificates/awsCloud Pipeline.png',
+            Img: './assets/certificates/awsCloud Pipeline.png',
             Title: ' AWS Academy Cloud Data Pipeline Builder'
         },
         {
-            Img: '../assets/certificates/AWS Academy Cloud Web Application Builder.png',
+            Img: './assets/certificates/AWS Academy Cloud Web Application Builder.png',
             Title: 'AWS Academy Cloud Web Application Builder'
         },
         {
-            Img: '../assets/certificates/PythonFullStack.png',
+            Img: './assets/certificates/PythonFullStack.png',
             Title: 'Python FullStack'
         },
         {
-            Img: '../assets/certificates/Data Analytics Essentials.png',
+            Img: './assets/certificates/Data Analytics Essentials.png',
             Title: 'Data Analytics Essentials'
         },
         {
-            Img: '../assets/certificates/Networking Basics.png',
+            Img: './assets/certificates/Networking Basics.png',
             Title: 'Networking Basics'
         },
         {
-            Img: '../assets/certificates/Wireless Essentials.png',
+            Img: './assets/certificates/Wireless Essentials.png',
             Title: 'Switching, Routing, and Wireless Essentials'
         },
         {
-            Img: '../assets/certificates/Data Visualisation.png',
+            Img: './assets/certificates/Data Visualisation.png',
             Title: 'Data Visualisation'
         },
         {
@@ -64,47 +64,47 @@ document.addEventListener('sectionsLoaded', () => {
             Title: 'Data Structures and Algorithms'
         },
         {
-            Img: '../assets/certificates/Computer Networking.png',
+            Img: './assets/certificates/Computer Networking.png',
             Title: 'Computer Networking'
         },
         {
-            Img: '../assets/certificates/Google Project Management.png',
+            Img: './assets/certificates/Google Project Management.png',
             Title: 'Google Project Management'
         },
         {
-            Img: '../assets/certificates/IBM Machine Learning.png',
+            Img: './assets/certificates/IBM Machine Learning.png',
             Title: 'IBM Machine Learning'
         },
         {
-            Img: '../assets/certificates/java Programming.png',
+            Img: './assets/certificates/java Programming.png',
             Title: 'Java Programming and Software Engineering Fundamentals'
         },
         {
-            Img: '../assets/certificates/operatingSystem.png',
+            Img: './assets/certificates/operatingSystem.png',
             Title: 'Introduction to Operating Systems'
         },
         {
-            Img: '../assets/certificates/Meta Back-End Developer.png',
+            Img: './assets/certificates/Meta Back-End Developer.png',
             Title: 'Meta Back-End Developer'
         },
         {
-            Img: '../assets/certificates/Meta Front-End Developer.png',
+            Img: './assets/certificates/Meta Front-End Developer.png',
             Title: 'Meta Front-End Developer'
         },
         {
-            Img: '../assets/certificates/Software Engineering.png',
+            Img: './assets/certificates/Software Engineering.png',
             Title: 'Software Engineering: Modeling Software Systems using UML'
         },
         {
-            Img: '../assets/certificates/AIML_CLUB_VICECHAIR.png',
+            Img: './assets/certificates/AIML_CLUB_VICECHAIR.png',
             Title: 'AIML_CLUB_VICECHAIR'
         },
         {
-            Img: '../assets/certificates/tableTennis.png',
+            Img: './assets/certificates/tableTennis.png',
             Title: 'Inter Department Table Tennis Certificate'
         },
         {
-            Img: '../assets/certificates/blockchain.png',
+            Img: './assets/certificates/blockchain.png',
             Title: 'BlockChain Workshop'
         },
     ];
