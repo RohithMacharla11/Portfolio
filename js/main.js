@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         const roles = [
             "Frontend Developer",
             "AI/ML Developer",
-            "Full Stack Developer",
+            "FullStack Developer",
             "NLP Specialist",
             "Android Developer",
             "PHP Developer",
@@ -125,11 +125,11 @@ document.addEventListener('DOMContentLoaded', async () => {
             const welcomeScreen = document.getElementById('welcome-screen');
             if (welcomeScreen) {
                 welcomeScreen.style.display = 'none';
-                console.log("Welcome screen hidden after 2 seconds");
+                console.log("Welcome screen hidden after 1 seconds");
             } else {
                 console.warn("Welcome screen element not found");
             }
-        }, 2000);
+        }, 1000);
 
         // Dispatch custom event to signal that sections are loaded
         const event = new Event('sectionsLoaded');
