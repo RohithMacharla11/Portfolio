@@ -81,8 +81,8 @@ document.addEventListener('DOMContentLoaded', async () => {
                     currentIndex = (currentIndex + 1) % roles.length;
                     roleElement.textContent = roles[currentIndex];
                     roleElement.style.opacity = '1';
-                }, 100); // Delay for fade-out effect
-            }, 2000); // Change every 2 seconds
+                }, 200); // Delay for fade-out effect
+            }, 1000); // Change every 2 seconds
             console.log("Developer role animation initialized");
         } else {
             console.error('Developer role element not found');
